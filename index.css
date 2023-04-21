@@ -66,3 +66,37 @@ input::placeholder{
   top: 7px;
   right: 35px;
 }
+
+.footer{
+  background-color: white;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: 226.5px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.footer-content{
+  height: 184.5px;
+  width: 1200px;
+}
+
+.footer-all-content{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: small;
+  line-height: 1.5;
+}
+
+.help{
+  margin-left: 45vw;
+}
+
+.footer-logo{
+  width: 90px
+}
