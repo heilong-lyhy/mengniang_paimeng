@@ -4,6 +4,8 @@ body{
   background-size: cover;
   margin: 0px;
   padding: 0px;
+  font-family: sans-serif,NospzGothicMoe,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  color: rgb(44, 62, 80);
 }
 
 a{
@@ -102,13 +104,11 @@ input::placeholder{
 }
 
 .help{
-  /* margin-left: 45vw; */
   float: right;
   gap: 1rem;
   padding: 0;
   margin: 10px 0 0;
   display: flex;
-  justify-self: space-around;
 }
 
 .help-font{
