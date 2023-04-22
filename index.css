@@ -97,7 +97,7 @@ input::placeholder{
   /* height: 184.5px; */
   width: 1200px;
   padding: 0px;
-  /* line-height: 1rem; */
+  line-height: 1.3rem;
   font-size: 14px;
 }
 
@@ -116,14 +116,33 @@ input::placeholder{
   text-decoration: none;
 }
 
+.hf-1{
+  position: relative;
+  top: -2px;
+  left: 4px;
+}
+.hf-2{
+  position: relative;
+  top: -2px;
+  left: 2px;
+}
+.hf-3{
+  position: relative;
+  top: -2px;
+  left: 0px;
+}
+
 .footer-logo{
-  width: 100px
+  width: 100px;
+  position: relative;
+  top: 1px;
 }
 
 .mianze{
   text-align: center;
   font-size: 14px;
-  
+  position: relative;
+  top: -11px;
 }
 
 .mianze-font{
@@ -133,4 +152,17 @@ input::placeholder{
 /* 以下为新增部分 */
 .main{
   height: 1000px;
+}
+
+.p-1{
+  position: relative;
+  top: -1px;
+}
+.p-2{
+  position: relative;
+  top: -5px;
+}
+.p-3{
+  position: relative;
+  top: -8px;
 }
