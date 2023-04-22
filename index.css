@@ -51,9 +51,9 @@ header{
 .input-t{
   position: absolute;
   top: 11px;
-  right: 68px;
-  width: 415px;
-  height: 1.53vw;
+  right: 69px;
+  width: 414px;
+  height: 3.3vh;
   border: 1.5px rgba(221, 221, 221, 0.837) solid;
   border-radius: 100px;
 }
@@ -66,13 +66,13 @@ input::placeholder{
 }
 
 .touxiang{
-  border: 3px rgba(221, 221, 221, 0.637) solid;
+  border: 3px rgba(221, 221, 221, 0.437) solid;
   border-radius: 100px;
   float: right;
   width: 33.5px;
   position: absolute;
   top: 6px;
-  right: 17.5px;
+  right: 18.5px;
 }
 
 /*页脚部分css*/
@@ -177,12 +177,13 @@ input::placeholder{
   top: 63px;
   right: 159px; */
   margin-top: 13px;
-  margin-right: 159px;
+  margin-left: 1060px;
   width: 19.77%;
   height: 362px;
   background-color: rgba(255,255,255, 0.9);
   border-radius: 7px;
   float: right;
+  position: fixed;
 }
 
 .m-kong1{
@@ -191,7 +192,7 @@ input::placeholder{
   background-color: rgba(60, 192, 14, 0.4);
   position: relative;
   top: 21px;
-  left: 14px;
+  left: 13.9px;
   border-radius: 4px;
 }
 .m-mulu{
