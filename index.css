@@ -24,7 +24,7 @@ header{
 .logo{
   margin-top: 11px;
   margin-left: 14px;
-  width: 88px;
+  width: 87.5px;
 }
 
 .head-t{
@@ -35,23 +35,23 @@ header{
 .h-1{
   position: relative;
   top: -9px;
-  left: 10px;
+  left: 11px;
 }
 .h-2{
   position: relative;
   top: -9px;
-  left: 43px;
+  left: 43.65px;
 }
 .h-3{
   position: relative;
   top: -9px;
-  left: 76px;
+  left: 76.58px;
 }
 
 .input-t{
   position: absolute;
   top: 11px;
-  right: 83px;
+  right: 68px;
   width: 415px;
   height: 1.53vw;
   border: 1.5px rgba(221, 221, 221, 0.837) solid;
@@ -66,13 +66,13 @@ input::placeholder{
 }
 
 .touxiang{
-  border: 2px rgba(221, 221, 221, 0.637) solid;
+  border: 3px rgba(221, 221, 221, 0.637) solid;
   border-radius: 100px;
   float: right;
-  width: 32px;
+  width: 33.5px;
   position: absolute;
-  top: 7px;
-  right: 35px;
+  top: 6px;
+  right: 17.5px;
 }
 
 /*页脚部分css*/
@@ -149,11 +149,6 @@ input::placeholder{
   text-decoration: none;
 }
 
-/* 以下为新增部分 */
-.main{
-  height: 1000px;
-}
-
 .p-1{
   position: relative;
   top: -1px;
@@ -165,4 +160,44 @@ input::placeholder{
 .p-3{
   position: relative;
   top: -8px;
+}
+/* 以下为新增部分 */
+.main{
+  margin-top: 13px;
+  margin-left: 160px;
+  margin-bottom: 43px;
+  width: 57.78%;
+  height: 1000px;
+  background-color: rgba(255,255,255, 0.9);
+  border-radius: 7px;
+}
+
+.mulu{
+  /* position: absolute;
+  top: 63px;
+  right: 159px; */
+  margin-top: 13px;
+  margin-right: 159px;
+  width: 19.77%;
+  height: 362px;
+  background-color: rgba(255,255,255, 0.9);
+  border-radius: 7px;
+  float: right;
+}
+
+.m-kong1{
+  width: 4px;
+  height: 1.3em;
+  background-color: rgba(60, 192, 14, 0.4);
+  position: relative;
+  top: 21px;
+  left: 14px;
+  border-radius: 4px;
+}
+.m-mulu{
+  font-size: 18.5px;
+  font-weight: 800;
+  position: relative;
+  top: -2px;
+  left: 25px;
 }
