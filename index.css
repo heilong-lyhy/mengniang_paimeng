@@ -14,7 +14,7 @@ a{
 }
 
 /*页眉部分css*/
-header{
+.header{
   background-color: white;
   /* margin: 0px;
   padding: 0px; */
@@ -164,9 +164,9 @@ input::placeholder{
 /* 以下为新增部分 */
 .main{
   margin-top: 13px;
-  margin-left: 160px;
+  margin-left: 12.1%;
   margin-bottom: 43px;
-  width: 57.78%;
+  width: 55.44%;
   height: 1000px;
   background-color: rgba(255,255,255, 0.9);
   border-radius: 7px;
@@ -177,8 +177,8 @@ input::placeholder{
   top: 63px;
   right: 159px; */
   margin-top: 13px;
-  margin-left: 1060px;
-  width: 19.77%;
+  margin-left: 69%;
+  width: 300px;
   height: 362px;
   background-color: rgba(255,255,255, 0.9);
   border-radius: 7px;
