@@ -16,8 +16,15 @@ a{
 /*页眉部分css*/
 .header{
   background-color: white;
-  /* margin: 0px;
-  padding: 0px; */
+  margin: 0px;
+  margin-top: -51px;
+  width: 100%;
+  padding: 0px;
+  height: 51px;
+  position: fixed;
+}
+
+.head-r{
   height: 51px;
 }
 
@@ -164,9 +171,9 @@ input::placeholder{
 /* 以下为新增部分 */
 .main{
   margin-top: 13px;
-  margin-left: 12.1%;
+  margin-left: 150px;
   margin-bottom: 43px;
-  width: 55.44%;
+  width: 830px;
   height: 1000px;
   background-color: rgba(255,255,255, 0.9);
   border-radius: 7px;
@@ -176,14 +183,19 @@ input::placeholder{
   /* position: absolute;
   top: 63px;
   right: 159px; */
-  margin-top: 13px;
-  margin-left: 69%;
+  /* margin-top: 13px; */
+  margin-left: 67%;
   width: 300px;
   height: 362px;
   background-color: rgba(255,255,255, 0.9);
   border-radius: 7px;
   float: right;
   position: fixed;
+}
+
+.content{
+  width: 1455px;
+  margin: 0px auto 0px auto;
 }
 
 .m-kong1{
