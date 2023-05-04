@@ -39,17 +39,19 @@ a{
   position: relative;
   top: -9px;
   left: 10.76px;
-  color: rgb(21, 27, 88);
+  color: rgb(44, 62, 80);
 }
 .h-2{
   position: relative;
   top: -9px;
   left: 43.75px;
+  color: rgb(44, 62, 80);
 }
 .h-3{
   position: relative;
   top: -9px;
   left: 76.63px;
+  color: rgb(44, 62, 80);
 }
 
 .input-t{
@@ -191,6 +193,7 @@ input::placeholder{
   /* margin-left: 67%; */
   width: 18.95%;
   height: 48.75vh;
+  width: 300px;
   background-color: rgba(255,255,255, 0.9);
   border-radius: 7px;
   /* float: right; */
